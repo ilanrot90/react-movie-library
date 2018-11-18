@@ -1,0 +1,14 @@
+.form-controll {
+    width: 80%;
+}
+.form-controll:not(:last-child) {
+    margin-bottom: 30px;
+}
+.input{
+    color: #fff !important;
+    font-size: 26px;
+}
+.label {
+    color: #fff !important;
+    font-size: 20px;
+}
