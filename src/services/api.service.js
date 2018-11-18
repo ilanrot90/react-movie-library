@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://www.omdbapi.com/?apikey=493c6020&t=';
+const HOST = 'https://cors-anywhere.herokuapp.com/'
+const BASE_URL = `${HOST}http://www.omdbapi.com/?apikey=493c6020&t=`;
 const moviesNames = [
     'Harry Potter and the Deathly Hallows: Part 2',
     'Blade Runner 2049',
